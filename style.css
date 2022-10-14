@@ -33,7 +33,7 @@
     grid-area: footer;
 }
 
-.item {
+.grid-item {
     background-color: #1E96FF;
     color: #ffffff;
     text-align: center;

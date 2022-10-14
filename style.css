@@ -1,28 +1,28 @@
-.photo {
+.grid-photo {
     grid-area: photo;
 }
 
-.title {
+.grid-title {
     grid-area: title;
 }
 
-.linkedin {
+.grid-linkedin {
     grid-area: linkedin;
 }
 
-.posts {
+.grid-posts {
     grid-area: posts;
 }
 
-.about {
+.grid-about {
     grid-area: about;
 }
 
-.sidebar {
+.grid-sidebar {
     grid-area: sidebar;
 }
 
-.footer {
+.grid-footer {
     grid-area: footer;
 }
 

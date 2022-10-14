@@ -1,48 +1,44 @@
-.grid-photo {
+.photo {
     grid-area: photo;
 }
 
-.grid-title {
+.title {
     grid-area: title;
 }
 
-.grid-linkedin {
+.linkedin {
     grid-area: linkedin;
 }
 
-.grid-posts {
+.posts {
     grid-area: posts;
 }
 
-.grid-about {
+.about {
     grid-area: about;
 }
 
-.grid-sidebar {
+.sidebar {
     grid-area: sidebar;
 }
 
-.grid-footer {
+.footer {
     grid-area: footer;
 }
 
 .grid-container {
     display: grid;
     grid-template-areas:
-        "photo"
-        "title title title"
-        "linkedin posts"
-        "about about"
-        "footer footer footer";
-    background-color: #e0fffc;
-    border: 1px dashed #1E96FF;
-    gap: 5px 10px;
-    justify-items: stretch;
+        "photo photo photo photo"
+        "title title title title"
+        "linkedin linkedin posts posts"
+        "about about about about"
+        "footer footer footer footer";
 }
 
-.grid-item {
+.item {
     background-color: #1E96FF;
     color: #ffffff;
     text-align: center;
-    width: 100%;
+    border-radius: 5px;
 }

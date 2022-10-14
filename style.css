@@ -3,9 +3,10 @@
     grid-template-areas:
         "photo"
         "title"
-        "linkedin linkedin posts posts"
-        "about about about about"
-        "footer footer footer footer";
+        "linkedin"
+        "posts"
+        "about"
+        "footer";
 }
 
 .photo {

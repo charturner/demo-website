@@ -25,12 +25,12 @@
 .container {
     display: grid;
     grid-template-areas:
-        "photo photo"
-        "sidebar title title"
+        "sidebar photo"
+        "title title title"
         "linkedin posts"
-        "sidebar about about"
+        "about about"
         "footer footer footer";
-    background-color: #E0F6FF;
+    background-color: #e0fffc;
     border: 1px dashed #1E96FF;
     gap: 5px 10px;
 }

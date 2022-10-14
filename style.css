@@ -18,12 +18,17 @@
     grid-area: photo;
 }
 
+.sidebar {
+    grid-area: sidebar;
+}
+
 .container {
     display: grid;
-    grid-template-areas: "photo photo"
-        "title title"
+    grid-template-areas:
+        "photo photo"
+        "sidebar title title"
         "linkedin posts"
-        "about about"
+        "sidebar about about"
         "footer footer footer";
     background-color: #E0F6FF;
     border: 1px dashed #1E96FF;

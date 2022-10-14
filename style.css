@@ -1,12 +1,12 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-        "photo"
-        "title"
-        "linkedin"
-        "posts"
-        "about"
-        "footer";
+        "grid-item photo"
+        "grid-item title"
+        "grid-item linkedin"
+        "grid-item posts"
+        "grid-item about"
+        "grid-item footer";
 }
 
 .photo {

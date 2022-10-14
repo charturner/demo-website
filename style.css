@@ -33,6 +33,7 @@
     background-color: #e0fffc;
     border: 1px dashed #1E96FF;
     gap: 5px 10px;
+    justify-items: stretch;
 }
 
 .item {

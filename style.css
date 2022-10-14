@@ -1,20 +1,19 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-        "photo"
         "title"
-        "linkedin"
-        "posts"
+        "photo"
+        "linkedin posts"
         "about"
         "footer";
 }
 
-.photo {
-    grid-area: photo;
-}
-
 .title {
     grid-area: title;
+}
+
+.photo {
+    grid-area: photo;
 }
 
 .linkedin {

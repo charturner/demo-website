@@ -27,7 +27,6 @@
     background-color: #E0F6FF;
     border: 1px dashed #1E96FF;
     gap: 5px 10px;
-    grid-template-columns: repeat(3, fr);
 }
 
 .grid-item {

@@ -1,4 +1,6 @@
 .grid container {
+    display: grid;
+    grid-template-columns: 50px 50px 120px;
     background-color: #E0F6FF;
     border: 1px dashed #1E96FF;
 }

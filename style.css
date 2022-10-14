@@ -1,3 +1,7 @@
+.photo {
+    grid-area: photo;
+}
+
 .title {
     grid-area: title;
 }
@@ -14,12 +18,12 @@
     grid-area: about;
 }
 
-.photo {
-    grid-area: photo;
-}
-
 .sidebar {
     grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
 }
 
 .container {

@@ -2,8 +2,8 @@
     grid-area: title;
 }
 
-.friends {
-    grid-area: friends;
+.linkedin {
+    grid-area: linkedin;
 }
 
 .posts {
@@ -20,8 +20,11 @@
 
 .grid container {
     display: grid;
-    grid-template-areas: "item 1 item1 item3"
-        background-color: #E0F6FF;
+    grid-template-areas: "photo photo"
+        "title title"
+        "linkedin posts"
+        "about about";
+    background-color: #E0F6FF;
     border: 1px dashed #1E96FF;
     gap: 5px 10px;
     grid-template-columns: repeat(3, fr);
@@ -34,7 +37,7 @@
     width: 100%;
 }
 
-h1{
+h1 {
     text-align: center;
     color: #2980B9;
 }

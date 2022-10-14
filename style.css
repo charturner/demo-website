@@ -1,9 +1,21 @@
-.item-1 {
-    grid-area: item1;
+.title {
+    grid-area: title;
 }
 
-.item-2 {
-    grid-area: item3;
+.friends {
+    grid-area: friends;
+}
+
+.posts {
+    grid-area: posts;
+}
+
+.about {
+    grid-area: about;
+}
+
+.photo {
+    grid-area: photo;
 }
 
 .grid container {
@@ -19,6 +31,10 @@
     background-color: #1E96FF;
     color: #ffffff;
     text-align: center;
-    margin: 2px;
-    padding: 15px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: #2980B9;
 }

@@ -5,8 +5,7 @@
         "photo"
         "linkedin"
         "posts"
-        "about"
-        "footer";
+        "about";
 }
 
 .title {
@@ -27,10 +26,6 @@
 
 .about {
     grid-area: about;
-}
-
-.footer {
-    grid-area: footer;
 }
 
 .grid-item {

@@ -18,25 +18,21 @@
     grid-area: photo;
 }
 
-.grid container {
+.container {
     display: grid;
     grid-template-areas: "photo photo"
         "title title"
         "linkedin posts"
-        "about about";
+        "about about"
+        "footer footer footer";
     background-color: #E0F6FF;
     border: 1px dashed #1E96FF;
     gap: 5px 10px;
 }
 
-.grid-item {
+.item {
     background-color: #1E96FF;
     color: #ffffff;
     text-align: center;
     width: 100%;
-}
-
-h1 {
-    text-align: center;
-    color: #2980B9;
 }

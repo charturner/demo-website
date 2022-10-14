@@ -1,8 +1,18 @@
+.item-1 {
+    grid-area: item1;
+}
+
+.item-2 {
+    grid-area: item3;
+}
+
 .grid container {
     display: grid;
-    grid-template-columns: 50px 50px 120px;
-    background-color: #E0F6FF;
+    grid-template-areas: "item 1 item1 item3"
+        background-color: #E0F6FF;
     border: 1px dashed #1E96FF;
+    gap: 5px 10px;
+
 }
 
 .grid-item {
@@ -10,4 +20,5 @@
     color: #ffffff;
     text-align: center;
     margin: 2px;
+    padding: 15px;
 }

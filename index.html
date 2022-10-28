@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Charlotte Turner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
 <body>
-
-    <head>
-        <title>Charlotte Turner</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    
-    <div class="grid-container">
-        <div class="grid-item header">Welcome to my website</div>
-        <div class="grid-item photo">
-            <img
-                src="https://media-exp1.licdn.com/dms/image/C4E03AQHnLqNvJ2QKtg/profile-displayphoto-shrink_200_200/0/1628148117526?e=2147483647&v=beta&t=UZ2HBUEA_d95UwufliDP9g1gRnyACpB2MeWQMVI5zA4" />
+    <section class= "header">
+      <nav>
+        <a href="index.html"><img src="Images/logo.jpg" alt="Logo"></a>
+        <div class="nav-links" id="nav-links">
+          <i class="glyphicon glyphicon-remove" onclick="hideMenu()"></i>
+<ul> 
+  <li><a href="">HOME</a></li>
+  <li><a href="">ABOUT</a></li>
+  <li><a href="">VMWARE</a></li>
+  <li><a href="">CREATIVE</a></li>
+  <li><a href="">CONTACT</a></li>
+</ul>
         </div>
+        <i class="glyphicon glyphicon-align-justify" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Welcome to my website</h1>
+        <p>Thank you for taking the time to visit my webiste</p>
+        <a href="" class="hero-btn">Click here to learn more</a>
+      </div>
+      </section>
+     
+      <!------ Course -------->
+<section class="course">
+  <h1>Courses we offer</h1>
+</section>
 
-        <div class="grid-item title">
-            <p>Charlotte Turner / Territory Account Manager</p>
-        </div>
-        <div class="grid-item linkedin"><a href="https://www.linkedin.com/in/charlotte-turner31/">Linkedin
-                Profile</a></div>
-        <div class="grid-item posts"><a href="#">My Posts</a></div>
-        <div class="grid-item about">
-            <h3> About Me</h3>
-            <p>I design and impliment the Commerical Strategy for VMware Scotland</p>
-        </div>
-    </div>
-</body>
-
+      <!------- Javascript for Toogle Menu ---------->
+     <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+          function hideMenu(){
+          navLinks.style.right = "-200px";
+        }
+      </script>
+    </body>
 </html>
+
